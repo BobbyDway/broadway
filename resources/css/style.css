@@ -4,5 +4,15 @@
 
 .header {
   text-align: center;
-  background-image: url('/resources/images/the-flatiron-building.png');
+  color: White;
+  background: #ffffff url('/resources/images/the-flatiron-building.png') no-repeat top center;
+}
+
+.header h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.header h5 {
+  font-size: 18px;
 }
