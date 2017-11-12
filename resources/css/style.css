@@ -4,15 +4,71 @@
 
 .header {
   text-align: center;
-  color: White;
-  background: #ffffff url('/resources/images/the-flatiron-building.png') no-repeat top center;
+  background-image: url('images/the-flatiron-building.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header h1 {
   font-size: 70px;
   font-weight: bold;
+  color: white;
 }
 
 .header h5 {
   font-size: 18px;
+}
+
+.header a {
+  color: white;
+}
+
+.process {
+  text-align: center;
+}
+
+.process h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.process h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.process p {
+  font-size: 14px;
+}
+
+.in {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  background-image: url("images/the-flatiron-building.png");
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.info p {
+  font-size: 14px;
+}
+
+.bottom {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+
+.bottom a {
+  font-size: 18px;
+  color: white;
 }
